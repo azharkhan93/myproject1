@@ -1,0 +1,21 @@
+#{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+}
+.ban{
+    width: 1400px; ;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)100%), url('p9m.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

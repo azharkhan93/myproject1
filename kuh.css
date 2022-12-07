@@ -1,0 +1,21 @@
+body{
+    background-color: indigo;
+    margin: 0px;
+
+}
+#moin{
+    background-color: purple;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+
+#mk{
+    background-color: aqua;
+    color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    height: 100px;
+    overflow: hidden;
+}

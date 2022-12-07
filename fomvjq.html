@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#submit").click(function(){
+                var user = $("#nme").val();
+                if(user == ""){ 
+                    $("#show-error").html("the username must be filled");
+
+                    $("#show-error").css("color","red");
+
+                    return false;
+
+
+                }
+                if((user.length <= 2) || (user.length >= 26)){ 
+                    $("#show-error").html("the username must be 3 and 25");
+                    return false;
+
+
+                }
+
+
+
+
+            });
+
+
+
+
+        });
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+    </script>
+</head>
+<body>
+    <center>
+    <form method="post" name="login form">
+
+<h2><label>userName:</label>
+    
+
+<input type="text" name="uname" id="nme"/>
+<div id="show-error"></div>
+
+<br><br><label>passWord:</label>
+
+
+
+<input type="password" name="pd" id="pwd"/>
+
+<br><br>
+
+<input type="SUBMIT" class="btn" id="submit">
+
+
+</center>
+
+
+
+
+
+    </h2>
+    </form>
+</body>
+</html>

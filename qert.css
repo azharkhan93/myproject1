@@ -1,0 +1,18 @@
+ul{list-style:none;}
+
+ul li a{
+background-color:#5c755e;
+color:black;
+display:block;
+width:90px;
+margin:5px;
+padding:10px;
+border:2px solid red;
+text-align:center;
+height:40px;
+line-height:20px;
+}
+ul li a:hover{
+background-color:blue;
+color:grey;
+}

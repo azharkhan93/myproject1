@@ -1,0 +1,100 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <style>
+  *
+  {margin: 0; padding: 0; box-sizing: border-box; background-color: rgba(192, 179, 163, 0.199);}
+  section
+  { width: 100%; background: rgb(255, 0, 119);
+}
+
+  section div{
+   /*width: 30%;*/
+   flex-basis: 30%;
+   padding: 20px;
+   border:1px solid black;
+
+  }
+
+  .flex1{
+   /*flex:1;*/
+   background: rgb(238, 238, 7);
+  }
+
+  .flex2{
+   /*flex:2;*/
+   background: rgb(255, 0, 76);}
+   /*tex-align: center;*/
+
+  .flex3{
+   /*flex:2;*/
+   background: rgb(49, 0, 128);} 
+
+  @media(min-width: 768px){
+   section{
+    display: flex;
+    justify-content: space-between;
+    
+   }
+  }
+
+ </style>
+</head>
+<body>
+
+<section>
+ 
+ <div class="flex1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, laborum. Tenetur illo ex iure maiores molestias ea, provident, quam alias voluptate atque magnam. Quam, odit ut quasi repudiandae tempora minima!</div>
+
+ <div class="flex2"> Lorems ipsum dolor sit amet, </div>
+
+ <div class="flex3"> Three  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. </div>
+</section>
+
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>The flex wrap Property</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+</div>
+
+</body>
+</html>

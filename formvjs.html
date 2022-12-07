@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" name="login form">
+
+<h2><label>userName:</label>
+
+<input type="text" name="uname" id="nme"/>
+
+<br><br><label>passWord:</label>
+
+<input type="password" name="pd" id="pwd"/>
+
+<br><br>
+
+<input type="button" value="logIn" id="submit" onclick="check()"/>
+
+
+
+
+    </h2>
+    </form>
+    <script>
+        function check(){
+            var b = document.getElementById("nme").value;
+            var c = document.getElementById("pwd").value;
+            if (b == "azhar" && c == "ahmed"){
+                alert("Login Successful");
+                  //window.location = "submited";
+                 return false;
+                
+            }
+            else{
+                alert("unsusessful");
+            }
+        }
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

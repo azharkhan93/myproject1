@@ -1,0 +1,25 @@
+#nav{
+background-color:yellow;
+height:25px;
+font-size:20px;
+font-weight:bold;
+}
+#nav ul{
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+#nav li{
+display:NONE;
+padding:15px;
+}
+#nav a{
+text-decoration:none;
+padding:8px 8px 8px 8px;
+color:black;
+}
+#nav a:hover{
+color:black;
+background-color:red;
+}

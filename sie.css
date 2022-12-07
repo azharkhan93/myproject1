@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+     padding: 0;}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)50%), url('cover.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: mediumvioletred;
+    font-size: 40px;
+    font-style: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: red;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+    margin: top 30px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 500px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: blue;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+border-radius:10px;
+    text-align: center;
+}
+
+.content{
+   text-align: left;
+}
+
+.btn:focus{
+    outline:navy; }
+.srch:focus{
+    outline:navy;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .para{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 25px;
+    margin-top: 1%;
+    letter-spacing: 5px;
+}
+.content .cn{
+    width: 160px;
+    height: 30px;
+    background: #ff7200;
+    border: navy;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content .cn a{
+    text-decoration: none;
+}
+.cn:hover{
+    background-color: white;
+    transition: .4s ease;
+}
+.content span{
+    color: blueviolet;
+    font-size: 50px;
+}
+.edge{
+    width: 150px;
+    height:70px;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 90px;
+    border: 2px solid yellowgreen;
+}
+.edge h2{
+    width: 500px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color:black;
+    border-radius: ;
+    margin: 2px;
+    padding: 1px;
+}
+.edge input{
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+    font-family: none;
+}
+.brtn{
+    width: 125px;
+    height: 25px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+font-size: 15px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+.brtn :hover{
+    background: black;
+    color: white;
+}
+.brtn a{
+    text-decoration: none;
+}
+.main h2{
+    width: 300px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 5px;
+}
+.main input{
+    width: 140px;
+    height: 25px;
+    background: black;
+    border-bottom: 1px solid #ff7200;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+::placeholder{
+    color: crimson;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+

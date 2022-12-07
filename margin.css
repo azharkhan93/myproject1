@@ -1,0 +1,19 @@
+h1,h2{
+text-decoration:underline;background-color:aqua;
+font-size:130%;
+}
+.para1{
+background-color:green;
+color:blue;
+font-style:italic;
+}
+.para2{
+color:grey;
+font-style:italic;
+background-color:yellow;
+font-size:20px;
+line-height:2em;
+border:3px black solid;
+margin:10px;
+padding-left:10px;
+}

@@ -1,0 +1,15 @@
+.abc{
+background-color:blue;
+}
+#para1{
+color:yellow;
+font-size:30px;
+font-style:italic;
+}
+h1{
+background-color:yellow;
+color:green;
+}
+body{
+background-image:url(cover.jpg);
+}
